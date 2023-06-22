@@ -45,7 +45,7 @@ const CustomNavbar = () => {
                 className="px-5"
             >
                 <NavbarBrand tag={ReactLink} to="/">
-                    MyBlogs
+                    TechiesBlogs
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
 
@@ -60,16 +60,7 @@ const CustomNavbar = () => {
                                 New Feed
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink tag={ReactLink} to="/about" >
-                                About
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={ReactLink} to="/services" >
-                                Services
-                            </NavLink>
-                        </NavItem>
+                      
 
 
 
